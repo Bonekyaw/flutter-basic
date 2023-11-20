@@ -8,7 +8,10 @@ void main() {
     const MaterialApp(
       home: Scaffold(
         backgroundColor: Colors.indigo,
-        body: GradientContainer(),
+        body: GradientContainer([
+          Colors.purple,
+          Colors.cyan,
+        ]),
       ),
     ),
   );
