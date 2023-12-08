@@ -47,9 +47,7 @@ class _QuizQuestionState extends State<QuizQuestion> {
             const SizedBox(
               height: 30,
             ),
-            ...questionList[currentQuestionIndex]
-                .getShuffledList()
-                .map((answer) {
+            ...questionList[currentQuestionIndex].shuffledList.map((answer) {
               return AnswerButton(
                   answerText: answer,
                   onTap: () {
