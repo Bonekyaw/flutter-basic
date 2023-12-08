@@ -35,6 +35,7 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  google_fonts: ^6.1.0
 
 dev_dependencies:
   flutter_test:
@@ -60,12 +61,13 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/images/dice-1.png
-    - assets/images/dice-2.png
-    - assets/images/dice-3.png
-    - assets/images/dice-4.png
-    - assets/images/dice-5.png
-    - assets/images/dice-6.png
+    - assets/images/quiz-logo.png
+    # - assets/images/dice-1.png
+    # - assets/images/dice-2.png
+    # - assets/images/dice-3.png
+    # - assets/images/dice-4.png
+    # - assets/images/dice-5.png
+    # - assets/images/dice-6.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
